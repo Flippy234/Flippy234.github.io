@@ -1,0 +1,1 @@
+console.log("site.js is linked and loaded to index.html!")
