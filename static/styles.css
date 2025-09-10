@@ -6,3 +6,14 @@
 .indent-first {
     text-indent: 2rem;
 }
+
+img {
+    width: 35%;
+    height: auto;
+    justify-content: center;
+    border: 6px solid rgb(101, 156, 110);
+}
+
+h2 {
+    text-align: center;
+}
