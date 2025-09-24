@@ -23,3 +23,5 @@ welcomeList.forEach(greet => {
         welcome.innerHTML = `<h2 class="text-center text-white">${greet.evening}</h2>`
     }
 })
+
+const secretMessage = localStorage.setItem("It's a secret to everybody.", "You have found me!")
