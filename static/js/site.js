@@ -26,7 +26,8 @@ welcomeList.forEach(greet => {
 
 const secretMessage = localStorage.setItem("It's a secret to everybody.", "You have found me!")
 
-// Carousel Assignment JS
+
+// Carousel Assignment starts here --
 const urls = [
     'https://images.pexels.com/photos/1454360/pexels-photo-1454360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     'https://images.pexels.com/photos/933964/pexels-photo-933964.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
@@ -35,6 +36,7 @@ const urls = [
     'https://images.pexels.com/photos/1370296/pexels-photo-1370296.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
 ].map(url => { (new Image()).src = url; return url })
 
+const images = document.querySelectorAll('#carousel img')
 
 let currentImage = 0
 const showImages = () => {
@@ -46,6 +48,7 @@ const showImages = () => {
 }
 
 showImages()
+
 
 const prev = document.querySelector('#prev')
 prev.addEventListener('click', () => {
