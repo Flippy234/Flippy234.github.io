@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To Do List</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+    crossorigin="anonymous"
+  />
+  <link rel="icon" href="/static/favicon/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="static/styles.css" />
+</head>
+<body class="bg-success d-flex justify-content-center align-items-center min-vh-100">
+  <div
+    class="container py-3"
+    style="max-width: 600px; background-color: rgb(100, 182, 154); border-radius: 3rem; border: 4px solid rgb(58, 95, 95); box-shadow: 0 0 10px rgba(0,0,0,0.3);"
+  >
+    <div
+      class="p-2 text-white text-center"
+      style="background-color: rgb(31, 70, 57); border-radius: 2rem; border: 4px solid rgb(21, 41, 41);"
+    >
+      <nav class="mb-4">
+        <a
+          href="index.html"
+          class="text-white text-decoration-none fw-bold fs-5"><img src="/static/favicon/favicon.ico" alt="Home" style="width: 64px; height: auto; margin-right: 8px;">
+           Home</a>
+      </nav>
+
+      <h1 class="mb-4">To Do List</h1>
+
+      <ul class="todo-list">
+        <!-- List items will go here -->
+      </ul>
+
+      <input type="text" id="new-todo" placeholder="Add a new item">
+      <button type="button">Add To Do</button>
+    </div>
+  </div>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"
+  ></script>
+  <script src="static/js/todo.js"></script>
+</body>
+</html>
